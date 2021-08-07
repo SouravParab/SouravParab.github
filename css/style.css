@@ -5,13 +5,15 @@ body{
 .ima {
   background-image: url("../img/hero.png");
   height: 600px;
-  width: 1335px;
+  width: 100%;
   margin-top: 10px;
 }
 .navbar{
   padding: 14px;
   background-color: black;
   height: 30px;
+    width: 100%;
+
 }
 .subnav{
   float: left;
@@ -108,13 +110,13 @@ body{
 .flex-child {
     flex: 1;
   height: 400px;
-  width: 20px;
+  width: 100%;
   background-color: RGB(6, 22, 91   );
 }  
 .flex-child1 {
     flex: 1;
   height: 400px;
-  width: 20px;
+  width: 100%;
   background-color: rgb(105, 107, 115  );/*grey*/
 }  
 .flex-child:first-child {
@@ -141,7 +143,7 @@ body{
     background-color: RGB(6, 22, 91    );/*blue*/
   padding-left: 20px;
   height: 200px;
-  width: 1310px;
+  width: 100%;
 }
 .port_1{
   font-family: Impact, fantasy; 
@@ -163,7 +165,7 @@ body{
     background-color: RGB(105, 107, 115   );
   color:  RGB(6, 22, 91    );
   height: 200px;
-  width: 1330px;
+  width: 100%;
   margin-top: 5px;
 
 }

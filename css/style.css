@@ -171,16 +171,16 @@ body{
 }
   
 .cont{
-  padding-left: 930px;
-  font-weight: bold ; 
+/*  padding-left: 930px;
+*/  font-weight: bold ; 
   font-size: 45px;
   font-family: Impact, fantasy; 
   padding-top: 10px;
 
 }
 .cont1{
-  padding-left: 995px;
-    font-weight: bold;
+/*  padding-left: 995px;
+*/    font-weight: bold;
     font-size: 23px; 
 
  
@@ -249,3 +249,8 @@ ul.cont1 > li:before {
   color: rgb(184, 181, 181 );
 
 }
+
+/*
+@media only screen and (max-width: 700px){
+  
+}*/

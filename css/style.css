@@ -1,0 +1,256 @@
+body{
+  background-color: RGB( 214, 219, 223);
+}
+
+.ima {
+  background-image: url("../img/hero.png");
+  height: 600px;
+  width: 100%;
+  margin-top: 10px;
+}
+.navbar{
+  padding: 14px;
+  background-color: black;
+  height: 30px;
+    width: 100%;
+
+}
+.subnav{
+  float: left;
+  font-family:URW Chancery L, cursive; 
+  font-weight: bold;
+
+}
+
+.p1{
+  padding-left: 60px;
+}
+.p1  a:link {
+  color: red;
+   background-color: transparent;
+  text-decoration: none;
+}
+.p1 a:visited {
+  color: rgb(171, 178, 185);
+}
+.p1 a:hover {
+  color: rgb(19, 41, 137);
+}
+.p2{
+  padding-left: 530px;
+}
+.p2 a:link {
+  color: red;
+   background-color: transparent;
+  text-decoration: none;
+}
+.p2 a:visited {
+  color: rgb(171, 178, 185);
+}
+.p2  a:hover {
+  color: rgb(19, 41, 137);
+}
+
+.name{
+   font-size: 22px;
+  font-weight: 900;
+  position: relative;
+  font-family: 'Lobster', cursive;
+    padding-left: 40px;
+    text-shadow: 2px 2px;
+}
+.name a:link {
+  color:   rgb(41, 128, 185);
+   background-color: transparent;
+  text-decoration: none;
+}
+.name a:visited {
+  color:   rgb(123, 125, 125);
+   background-color: transparent;
+  text-decoration: none;
+}
+.name a:hover {
+  color: rgb(19, 41, 137);
+}
+.name2{
+   font-size: 22px;
+  font-weight: 900;
+  color: rgb(236, 241, 250);
+  position: relative;
+  font-family: 'Lobster', cursive;
+  padding-left: 180px;
+  padding-top: 150px;
+}
+ 
+
+.name2 h1 {
+  font-size: 70px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.name2 h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.name2 h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.flex-child {
+    flex: 1;
+  height: 400px;
+  width: 100%;
+  background-color: RGB(6, 22, 91   );
+}  
+.flex-child1 {
+    flex: 1;
+  height: 400px;
+  width: 100%;
+  background-color: rgb(105, 107, 115  );/*grey*/
+}  
+.flex-child:first-child {
+    margin-right: 50px;
+} 
+.about{
+  padding-left: 20px;
+  padding-top: 20px;
+  color: rgb(105, 107, 115);
+    font-family: Impact, fantasy; 
+      font-size: 50px;
+
+
+}
+.knowledge{
+  padding-left: 20px;
+  padding-top: 20px;
+  color: rgb(6, 22, 91);
+    font-family: Impact, fantasy; 
+      font-size: 50px;
+}
+
+.port{
+    background-color: RGB(6, 22, 91    );/*blue*/
+  padding-left: 20px;
+  height: 200px;
+  width: 100%;
+}
+.port_1{
+  font-family: Impact, fantasy; 
+  font-size: 50px;
+  padding-top: 20px;
+  color:  RGB(105, 107, 115    );
+
+}
+.unorder{
+  font-size: 20px;
+  color: rgb(184, 181, 181 );
+  font-weight: bold;
+  padding-top: 15px;
+
+}
+
+
+.con {
+    background-color: RGB(105, 107, 115   );
+  color:  RGB(6, 22, 91    );
+  height: 200px;
+  width: 100%;
+  margin-top: 5px;
+
+}
+  
+.cont{
+/*  padding-left: 930px;
+*/  font-weight: bold ; 
+  font-size: 45px;
+  font-family: Impact, fantasy; 
+  padding-top: 10px;
+
+}
+.cont1{
+/*  padding-left: 995px;
+*/    font-weight: bold;
+    font-size: 23px; 
+
+ 
+}
+.copy{
+  color:rgb(23, 32, 42);
+  text-align: center;
+  font-weight: 900;
+  font-size: 26px;
+  font-family: Impact, fantasy;
+
+}
+
+ul {
+  margin: 0;
+}
+ul.cont1 {
+  list-style-type: none;
+}
+ul.cont1 > li {
+  text-indent: -5px;
+}
+ul.cont1 > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+.know_img{
+  height: 80px;
+  width: 80px;
+}
+
+
+.knowledge_1 {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding-left: 55px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bsc{
+  padding-left: 60px;
+  font-size: 30px;
+  font-weight: bold;
+    margin-top: 20px;
+
+  color: rgb(184, 181, 181 );
+
+}
+
+.bsc_1{
+  padding-left: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: rgb(184, 181, 181 );
+
+}
+
+/*
+@media only screen and (max-width: 700px){
+  
+}*/

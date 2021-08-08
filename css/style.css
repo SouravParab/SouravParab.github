@@ -227,6 +227,7 @@ ul.cont1 > li:before {
 .column {
   float: left;
   width: 20%;
+  height: 150px;
   padding-left: 55px;
 }
 
@@ -241,7 +242,7 @@ ul.cont1 > li:before {
   padding-left: 60px;
   font-size: 30px;
   font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
 
   color: rgb(184, 181, 181 );
 
@@ -251,12 +252,18 @@ ul.cont1 > li:before {
   padding-left: 60px;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 40px;
   color: rgb(184, 181, 181 );
 
 }
 
 
+
+
+
+
+
+/*for phone*/
 @media (max-width: 998px){
  
   
@@ -267,7 +274,7 @@ ul.cont1 > li:before {
   padding: 14px;
   background-color: black;
   height: 30px;
-    width: 100%;
+    width: 97%;
 
 }
 
@@ -290,12 +297,12 @@ ul.cont1 > li:before {
   padding-left: 25px;
 }
   .p2{
-  padding-left: 68Px;
+  padding-left: 255Px;
 }
 .ima {
   background-image: url("../img/hero.png");
-  height: 250px;
-  width: 77%;
+  height: 300px;
+  width: 100.5%;
   margin-top: 10px;
   background-size: 100% 100%;
 }
@@ -328,6 +335,93 @@ ul.cont1 > li:before {
   margin: 0;
   padding: 0;
 }
+
+.flex-container {
+    display: flex;
+    margin-top: 20px;
+    width: 100.5%
+}
+
+.flex-child {
+    flex: 1;
+  height: 250px;
+  background-color: RGB(6, 22, 91   );
+}  
+.flex-child1 {
+    flex: 1;
+  height: 250px;
+  background-color: rgb(105, 107, 115  );/*grey*/
+}  
+.flex-child:first-child {
+    margin-right: 35px;
+}
+
+.con {
+    background-color: RGB(105, 107, 115   );
+  color:  RGB(6, 22, 91    );
+  height: 164px;
+  width: 100.5%;
+  margin-top: -30px;
+
+}
+  
+.cont{
+  padding-left: 400px;
+  font-weight: bold ; 
+  font-size: 40px;
+  font-family: Impact, fantasy; 
+  padding-top: 21px;
+  
+}
+.cont1{
+  padding-left: 458px;
+    font-weight: bold;
+    font-size: 20px; 
+    margin-top: -23px;
+}
+
+.copy{
+  color:rgb(23, 32, 42);
+  text-align: center;
+  font-weight: 900;
+  font-size: 16px;
+  font-family: Impact, fantasy;
+  padding-right: -23px;
+}
+
+.port{
+  height: 150px;
+  width: 98%
+}
+
+.port_1 {
+  font-size: 37px;
+}
+.unorder{
+  font-size: 16px;
+}
+.about {
+  font-size: 37px;
+}
+.knowledge{
+  font-size: 37px;
+}
+.bsc{
+  font-size: 20px;
+  padding-top: -100px;
+}
+.bsc_1{
+  font-size: 14px;
+}
+.column {
+  float: left;
+  width: 13%;
+  padding-left: 55px;
+  height: 88px;
+}
+
+
+
 
 
 

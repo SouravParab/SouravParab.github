@@ -1,3 +1,7 @@
+html{
+  font-size: 10px;
+
+}
 body{
   background-color: RGB( 214, 219, 223);
 }
@@ -5,20 +9,23 @@ body{
 .ima {
   background-image: url("../img/hero.png");
   height: 600px;
-  width: 100%;
+  width: 100.5%;
   margin-top: 10px;
+  background-size: 100% 100%;
 }
 .navbar{
   padding: 14px;
   background-color: black;
   height: 30px;
-    width: 100%;
+    width: 98.5%;
 
 }
-.subnav{
+
+.subnav {
   float: left;
   font-family:URW Chancery L, cursive; 
   font-weight: bold;
+  font-size: 15px;
 
 }
 
@@ -105,22 +112,21 @@ body{
 .flex-container {
     display: flex;
     margin-top: 40px;
+    width: 100.5%
 }
 
 .flex-child {
     flex: 1;
   height: 400px;
-  width: 100%;
   background-color: RGB(6, 22, 91   );
 }  
 .flex-child1 {
     flex: 1;
   height: 400px;
-  width: 100%;
   background-color: rgb(105, 107, 115  );/*grey*/
 }  
 .flex-child:first-child {
-    margin-right: 50px;
+    margin-right: 35px;
 } 
 .about{
   padding-left: 20px;
@@ -143,7 +149,7 @@ body{
     background-color: RGB(6, 22, 91    );/*blue*/
   padding-left: 20px;
   height: 200px;
-  width: 100%;
+  width: 99%;
 }
 .port_1{
   font-family: Impact, fantasy; 
@@ -165,22 +171,22 @@ body{
     background-color: RGB(105, 107, 115   );
   color:  RGB(6, 22, 91    );
   height: 200px;
-  width: 100%;
+  width: 100.5%;
   margin-top: 5px;
 
 }
   
 .cont{
-/*  padding-left: 930px;
-*/  font-weight: bold ; 
+  padding-left: 930px;
+  font-weight: bold ; 
   font-size: 45px;
   font-family: Impact, fantasy; 
   padding-top: 10px;
-
+  
 }
 .cont1{
-/*  padding-left: 995px;
-*/    font-weight: bold;
+  padding-left: 990px;
+    font-weight: bold;
     font-size: 23px; 
 
  
@@ -201,7 +207,7 @@ ul.cont1 {
   list-style-type: none;
 }
 ul.cont1 > li {
-  text-indent: -5px;
+  text-indent: -10px;
 }
 ul.cont1 > li:before {
   content: "-";
@@ -250,7 +256,86 @@ ul.cont1 > li:before {
 
 }
 
-/*
-@media only screen and (max-width: 700px){
+
+@media (max-width: 998px){
+ 
   
-}*/
+}
+
+@media (max-width: 798px){
+  .navbar{
+  padding: 14px;
+  background-color: black;
+  height: 30px;
+    width: 100%;
+
+}
+
+.subnav {
+  float: left;
+  font-family:URW Chancery L, cursive; 
+  font-weight: bold;
+  font-size: 13px;
+
+}
+.name{
+   font-size: 15px;
+  font-weight: 900;
+  position: relative;
+  font-family: 'Lobster', cursive;
+    padding-left: 15px;
+    text-shadow: 1.2px 1.2px;
+}
+.p1{
+  padding-left: 25px;
+}
+  .p2{
+  padding-left: 68Px;
+}
+.ima {
+  background-image: url("../img/hero.png");
+  height: 250px;
+  width: 77%;
+  margin-top: 10px;
+  background-size: 100% 100%;
+}
+.name2{
+   font-size: 2.2px;
+  font-weight: 900;
+  color: rgb(236, 241, 250);
+  position: relative;
+  font-family: 'Lobster', cursive;
+  padding-left: 70px;
+  padding-top: 100px;
+}
+ 
+
+.name2 h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.name2 h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.name2 h6 {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+}

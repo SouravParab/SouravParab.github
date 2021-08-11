@@ -269,12 +269,12 @@ ul.cont1 > li:before {
   
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1280px){
   .navbar{
   padding: 14px;
   background-color: black;
   height: 30px;
-    width: 97%;
+    width: 96.5%;
 
 }
 
@@ -360,23 +360,23 @@ ul.cont1 > li:before {
     background-color: RGB(105, 107, 115   );
   color:  RGB(6, 22, 91    );
   height: 164px;
-  width: 100.5%;
+  width: 101%;
   margin-top: -30px;
 
 }
   
 .cont{
-  padding-left: 400px;
+  padding-left: 350px;
   font-weight: bold ; 
-  font-size: 40px;
+  font-size: 34px;
   font-family: Impact, fantasy; 
   padding-top: 21px;
   
 }
 .cont1{
-  padding-left: 458px;
+  padding-left: 390px;
     font-weight: bold;
-    font-size: 20px; 
+    font-size: 17px; 
     margin-top: -23px;
 }
 

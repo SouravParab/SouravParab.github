@@ -268,7 +268,7 @@ ul.cont1 > li:before {
   
 }
 
-@media only screen and (max-width: 1280px){
+@media only screen and (max-width: 980px){
   .navbar{
   padding: 14px;
   background-color: black;

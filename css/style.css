@@ -59,7 +59,7 @@ body{
 }
 
 .name{
-   font-size: 28px;
+   font-size: 38px;
   font-weight: 900;
   position: relative;
   font-family: Impact, fantasy;
@@ -285,18 +285,18 @@ ul.cont1 > li:before {
 
 }
 .name{
-   font-size: 15px;
+   font-size: 25px;
   font-weight: 900;
   position: relative;
-  font-family: 'Lobster', cursive;
+  font-family: Impact, fantasy;
     padding-left: 15px;
-    text-shadow: 1.2px 1.2px;
+    
 }
 .p1{
   padding-left: 25px;
 }
   .p2{
-  padding-left: 255Px;
+  padding-left: 200Px;
 }
 .ima {
   background-image: url("../img/hero.png");
@@ -310,7 +310,7 @@ ul.cont1 > li:before {
   font-weight: 900;
   color: rgb(236, 241, 250);
   position: relative;
-  font-family: 'Lobster', cursive;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   padding-left: 70px;
   padding-top: 100px;
 }

@@ -23,7 +23,7 @@ body{
 
 .subnav {
   float: left;
-  font-family:URW Chancery L, cursive; 
+  font-family:Arial, sans-serif; 
   font-weight: bold;
   font-size: 15px;
 
@@ -59,12 +59,11 @@ body{
 }
 
 .name{
-   font-size: 22px;
+   font-size: 28px;
   font-weight: 900;
   position: relative;
-  font-family: 'Lobster', cursive;
-    padding-left: 40px;
-    text-shadow: 2px 2px;
+  font-family: Impact, fantasy;
+    padding-left: 50px;
 }
 .name a:link {
   color:   rgb(41, 128, 185);
@@ -84,7 +83,7 @@ body{
   font-weight: 900;
   color: rgb(236, 241, 250);
   position: relative;
-  font-family: 'Lobster', cursive;
+  font-family:New Century Schoolbook, TeX Gyre Schola, serif;
   padding-left: 180px;
   padding-top: 150px;
 }
@@ -280,7 +279,7 @@ ul.cont1 > li:before {
 
 .subnav {
   float: left;
-  font-family:URW Chancery L, cursive; 
+  font-family:Arial, sans-serif; 
   font-weight: bold;
   font-size: 13px;
 

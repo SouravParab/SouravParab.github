@@ -14,10 +14,10 @@ body{
   background-size: 100% 100%;
 }
 .navbar{
-  padding: 14px;
   background-color: black;
-  height: 30px;
-    width: 98.5%;
+  height: 40px;
+  width: 99%;
+  padding: 10px;
 
 }
 
@@ -26,6 +26,7 @@ body{
   font-family:Arial, sans-serif; 
   font-weight: bold;
   font-size: 15px;
+  padding: 10px;
 
 }
 
@@ -44,7 +45,7 @@ body{
   color: rgb(19, 41, 137);
 }
 .p2{
-  padding-left: 530px;
+  padding-left: 450px;
 }
 .p2 a:link {
   color: red;
@@ -59,11 +60,12 @@ body{
 }
 
 .name{
-   font-size: 38px;
+   font-size: 35px;
   font-weight: 900;
   position: relative;
   font-family: Impact, fantasy;
-    padding-left: 50px;
+  padding-left: 50px;
+  margin-top: -10px;
 }
 .name a:link {
   color:   rgb(41, 128, 185);
@@ -268,7 +270,7 @@ ul.cont1 > li:before {
   
 }
 
-@media only screen and (max-width: 2160px){
+@media only screen and (max-width: 720px){
   .navbar{
   padding: 14px;
   background-color: black;
